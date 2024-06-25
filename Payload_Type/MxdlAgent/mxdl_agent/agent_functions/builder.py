@@ -36,7 +36,7 @@ class MxdlAgent(PayloadType):
         )
     ]
     agent_path = pathlib.Path(".") / "mxdl_agent"
-    agent_icon_path = agent_path / "agent_functions" / "bug.svg"
+    agent_icon_path = agent_path / "agent_functions" / "rust_mxdl.jpg"
     agent_code_path = agent_path / "agent_code"
 
     build_steps = [  # Build steps
