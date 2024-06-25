@@ -1,0 +1,7 @@
+[package]
+name = "mxdl_agent"
+version = "0.1.0"
+authors = ["Maxime Delis"]
+edition = "2021"
+
+[dependencies]

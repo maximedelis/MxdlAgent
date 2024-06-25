@@ -15,7 +15,7 @@ class MxdlAgent(PayloadType):
     wrapper = False
     wrapped_payloads = []
     note = """A Rust agent by Mxdl"""
-    supports_dynamic_loading = True
+    supports_dynamic_loading = False
     c2_profiles = ["http"]
     mythic_encrypts = True
     translation_container = None
@@ -36,7 +36,7 @@ class MxdlAgent(PayloadType):
         )
     ]
     agent_path = pathlib.Path(".") / "mxdl_agent"
-    agent_icon_path = agent_path / "agent_functions" / "rust_mxdl.jpg"
+    agent_icon_path = agent_path / "mythic" / "agent_functions" / "rust_mxdl.jpg"
     agent_code_path = agent_path / "agent_code"
 
     build_steps = [  # Build steps
